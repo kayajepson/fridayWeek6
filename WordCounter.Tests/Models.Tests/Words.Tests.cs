@@ -33,5 +33,14 @@ namespace WordCounter.Tests
       Assert.AreEqual(true, newComparison.SentenceContainsWord());
     }
 
+    [TestMethod]
+    public void RemoveNonStringValues_RemovesNonStringValuesFromSentence_True()
+    {
+      string userWord = "cat";
+      WordCountGen newWord = new WordCountGen();
+      Assert.AreEqual(typeof(userWord), newWord.RemoveNonStringValues("the cat in the hat plus 1"));
+    }
+
+
   }
 }
