@@ -25,20 +25,13 @@ namespace WordCounter.Tests
       WordCountGen newArray = new WordCountGen();
       Assert.AreEqual(true, newArray.SentenceToArray("the cat in the hat"));
     }
-    //
-    // [TestMethod]
-    // public void WorthOne_LetterAEqualsOne_True()
-    // {
-    //   ScrabbleScore newWord = new ScrabbleScore();
-    //   Assert.AreEqual(1,  newWord.LookUpValue('a'));
-    // }
-    //
-    // [TestMethod]
-    // public void WorthFive_WordEqualsFive_True()
-    // {
-    //   ScrabbleScore newWord = new ScrabbleScore();
-    //   Assert.AreEqual(5,  newWord.LoopThroughWord("dad"));
-    // }
+
+    [TestMethod]
+    public void SentenceContainsWord_UserSentenceContainsUserWord_True()
+    {
+      WordCountGen newComparison = new WordCountGen();
+      Assert.AreEqual(true, newComparison.SentenceContainsWord());
+    }
 
   }
 }
