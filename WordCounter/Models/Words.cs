@@ -18,31 +18,22 @@ namespace WordCounter.Words
 
     public int TimesInSentence (string userWord)
     {
-      List<string> sentenceList = new List<string>(){"the", "cat", "in", "the", "hat"};
-      string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
+      List<string> sentenceList = new List<string>(){"the", "cat", "in", "the", "hat", "loves", "cathedrals", "and", "cat"};
       int timesAppeared = 0;
-      Console.WriteLine("sentence:");
-      sentenceList.ForEach(Console.WriteLine);
-      Console.WriteLine("user word:");
-      Console.WriteLine(userWord);
-
       foreach (string i in sentenceList)
         {
           if (i == userWord)
           {
-            Console.WriteLine("yes");
             timesAppeared += 1;
           }
           else
           {
-            Console.WriteLine("no");
             timesAppeared += 0;
           }
         }
 
-
-      Console.WriteLine(userWord);
-
+//----if i want an array instead
+      // string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
       // for (int i = 0; i <= sentenceArray.Length - 1; i++)
       // {
       //   if (sentenceArray[i] == userWord)

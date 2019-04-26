@@ -9,7 +9,7 @@ namespace WordCounter.Words
       WordCountGen newWord = new WordCountGen();
       // newWord.SentenceContainsWord("the cat in the hat");
       int score = newWord.TimesInSentence("cat");
-      Console.WriteLine(score);
+      Console.WriteLine("Your word appears in your sentence" + " " + score + " " + "times.");
       // Console.WriteLine("Please enter a word: ");
       // string userWord = Console.ReadLine().ToLower();
       // Console.WriteLine("Please enter a sentence: ");
