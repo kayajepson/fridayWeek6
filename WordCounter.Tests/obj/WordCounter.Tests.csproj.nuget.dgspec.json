@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/WordCounter.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/WordCounter.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/WordCounter.Tests.csproj",
+        "projectName": "WordCounter.Tests",
+        "projectPath": "/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/WordCounter.Tests.csproj",
+        "packagesPath": "/home/tim/.nuget/packages/",
+        "outputPath": "/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/tim/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj": {
+                "projectPath": "/home/tim/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/tim/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tim/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj",
+        "projectName": "WordCounter",
+        "projectPath": "/home/tim/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj",
+        "packagesPath": "/home/tim/.nuget/packages/",
+        "outputPath": "/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
