@@ -2,3 +2,16 @@
 /home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.csproj.CoreCompileInputs.cache
 /home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.AssemblyInfoInputs.cache
 /home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.AssemblyInfo.cs
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Tests.deps.json
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Tests.runtimeconfig.json
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Tests.runtimeconfig.dev.json
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Tests.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Tests.pdb
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.pdb
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.csproj.CopyComplete
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.pdb
