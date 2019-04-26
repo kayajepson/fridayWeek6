@@ -12,11 +12,19 @@ namespace WordCounter.Tests
       WordCountGen newWord = new WordCountGen();
       Assert.AreEqual(true, newWord.IsWord("test"));
     }
+
     [TestMethod]
     public void IsSentence_IsASentence_True()
     {
       WordCountGen newSentence = new WordCountGen();
       Assert.AreEqual(true, newSentence.IsSentence("the cat in the hat"));
+    }
+
+    [TestMethod]
+    public void WordToLowerCase_TurnWordToLowerCase()
+    {
+      WordCountGen newSentence = new WordCountGen();
+      Assert.AreEqual("the cat in the hat", newSentence.SentenceToLowerCase("The CAT in the Hat"));
     }
 
     [TestMethod]
@@ -33,6 +41,12 @@ namespace WordCounter.Tests
       Assert.AreEqual(true, newComparison.SentenceContainsWord());
     }
 
+    [TestMethod]
+    public void WordInSentence_RepeatCounter()
+    {
+      WordCountGen newComparison = new WordCountGen();
+      Assert.AreEqual(2, newComparison.RepeatCounter("cat"));
+    }
 
   }
 }
