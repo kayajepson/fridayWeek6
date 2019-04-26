@@ -14,17 +14,27 @@ namespace WordCounter.Words
     {
       string userWord = "cat";
       string[] sentenceArray = sentence.Split();
-      if (((IList<string>)sentenceArray).Contains(userWord))
-      {
-        Console.WriteLine("True");
-      }
-      else
-      {
-        Console.WriteLine("False");
-      }
     }
 
-//------------------------------------------------
+    public int TimesInSentence (string userWord)
+    {
+      string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
+      int timesAppeared = 0;
+      for (int i = 0; i <= sentenceArray.Length - 1; i++)
+      {
+        if (((IList<string>)sentenceArray).Contains(userWord))
+        {
+          timesAppeared += 1;
+        }
+        else
+        {
+          return 0;
+        }
+      }
+      return timesAppeared;
+    }
+
+    //------------------------------------------------
     // private string _word;
     // public bool IsWord(string word)
     // {
