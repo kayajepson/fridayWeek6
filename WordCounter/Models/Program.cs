@@ -7,8 +7,8 @@ namespace WordCounter.Words
     public static void Main()
     {
       WordCountGen newWord = new WordCountGen();
-      // newWord.SentenceContainsWord("the cat in the hat");
-      int score = newWord.TimesInSentence("cat");
+      newWord.RemoveNonStringValues("the cat in the hat plus 1");
+      int score = newWord.TimesInSentence("Cat");
       Console.WriteLine("Your word appears in your sentence" + " " + score + " " + "times.");
       // Console.WriteLine("Please enter a word: ");
       // string userWord = Console.ReadLine().ToLower();

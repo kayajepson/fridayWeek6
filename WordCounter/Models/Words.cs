@@ -1,23 +1,15 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+
 
 namespace WordCounter.Words
 {
   public class WordCountGen
   {
-    // public string SentenceToArray(string sentence)
-    // {
-    //   string[] sentenceArray = sentence.Split();
-    //   return sentenceArray;
-    // }
-    // public void SentenceContainsWord (string sentence)
-    // {
-    //   string userWord = "cat";
-    //   string[] sentenceArray = sentence.Split();
-    // }
-
     public int TimesInSentence (string userWord)
     {
+      userWord = userWord.ToLower();
       List<string> sentenceList = new List<string>(){"the", "cat", "in", "the", "hat", "loves", "cathedrals", "and", "cat"};
       int timesAppeared = 0;
       foreach (string i in sentenceList)
@@ -31,8 +23,32 @@ namespace WordCounter.Words
             timesAppeared += 0;
           }
         }
+        return timesAppeared;
+      }
+
+  public int RemoveNonStringValues (string sentence)
+  {
+    string[] sentenceArray = sentence.Split();
+    int timesAppeared = 0;
+    foreach (string i in sentenceArray)
+      {
+        Assert.AreEqual(typeof(i), typeOf(userWord));
+      }
+  }
 
 //----if i want an array instead
+
+      // public string SentenceToArray(string sentence)
+      // {
+      //   string[] sentenceArray = sentence.Split();
+      //   return sentenceArray;
+      // }
+      // public void SentenceContainsWord (string sentence)
+      // {
+      //   string userWord = "cat";
+      //   string[] sentenceArray = sentence.Split();
+      // }
+
       // string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
       // for (int i = 0; i <= sentenceArray.Length - 1; i++)
       // {
@@ -47,8 +63,29 @@ namespace WordCounter.Words
       //     return 0;
       //   }
       // }
-      return timesAppeared;
-    }
+
+
+    // public string WordToLowerCase (string userWord)
+    // {
+    //   return userWord.ToLower();
+    // }
+
+    // public int SentenceToLower (string userWord)
+    // {
+    //   List<string> sentenceList = new List<string>(){"the", "cat", "in", "the", "hat", "loves", "cathedrals", "and", "cat"};
+    //   int timesAppeared = 0;
+    //   foreach (string i in sentenceList)
+    //     {
+    //       if (i == userWord)
+    //       {
+    //         timesAppeared += 1;
+    //       }
+    //       else
+    //       {
+    //         timesAppeared += 0;
+    //       }
+    //     }
+    //   }
 
     //------------------------------------------------
     // private string _word;
