@@ -1,0 +1,9 @@
+/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.csprojAssemblyReference.cache
+/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.csproj.CoreCompileInputs.cache
+/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.AssemblyInfoInputs.cache
+/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.AssemblyInfo.cs
+/home/tim/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.deps.json
+/home/tim/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.pdb
+/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.dll
+/home/tim/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.pdb
