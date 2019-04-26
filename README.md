@@ -8,10 +8,12 @@ _A program that will take in a user inputted word and sentence then return the a
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| The program should take in a user inputted word as a string. | cat | "cat" |
+| The program should take in a user inputted word as a string. (all examples based on project prompt) | cat | "cat" |
 | The program should take in a user inputted sentence as a string. | the cat in the hat | "the cat in the hat" |
 | The program should convert the sentence to an array split on the word. | "the cat in the hat" | ["the", "cat", "in", "the", "hat"] |
 | The program should return the number of times the word appears in the sentence. | cat, the cat in the hat | "cat" appears 1 time in the sentence "the cat in the hat" |
+| The program should ignore partial matches of words (i.e. "cat" should not match "cathedral"). | "the cat in the cathedral" | "cat" appears 1 time in the sentence "the cat in the cathedral" |
+| The program should turn the user input into lowercase text. | "The CAT in the Hat" | the cat in the hat |
 
 ## Setup/Installation Requirements
 

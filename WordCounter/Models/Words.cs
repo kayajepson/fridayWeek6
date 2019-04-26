@@ -6,59 +6,28 @@ namespace WordCounter.Words
 {
   public class WordCountGen
   {
-    public int TimesInSentence (string userWord)
+    public int RepeatCounter (string userWord)
     {
       userWord = userWord.ToLower();
       List<string> sentenceList = new List<string>(){"the", "cat", "in", "the", "hat", "loves", "cathedrals", "and", "cat"};
       int timesAppeared = 0;
       foreach (string i in sentenceList)
+      {
+        if (i == userWord)
         {
-          if (i == userWord)
-          {
-            timesAppeared += 1;
-          }
-          else
-          {
-            timesAppeared += 0;
-          }
+          timesAppeared += 1;
         }
-        return timesAppeared;
+        else
+        {
+          timesAppeared += 0;
+        }
       }
+      return timesAppeared;
+    }
 
-
-
-// ----if i want an array instead
-//
-//       public string SentenceToArray(string sentence)
-//       {
-//         string[] sentenceArray = sentence.Split();
-//         return sentenceArray;
-//       }
-//       public void SentenceContainsWord (string sentence)
-//       {
-//         string userWord = "cat";
-//         string[] sentenceArray = sentence.Split();
-//       }
-//
-//       string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
-      // for (int i = 0; i <= sentenceArray.Length - 1; i++)
-      // {
-      //   if (sentenceArray[i] == userWord)
-      //   {
-      //     timesAppeared += 1;
-      //     Console.WriteLine("working");
-      //   }
-      //   else
-      //   {
-      //     Console.WriteLine("not working");
-      //     return 0;
-      //   }
-//       }
-
-
-    public string WordToLowerCase (string userWord)
+    public string SentenceToLowerCase (string userSentence)
     {
-      return userWord.ToLower();
+      return userSentence.ToLower();
     }
 
     private string _word;
@@ -84,7 +53,7 @@ namespace WordCounter.Words
       return _sentenceString == sentenceArrayString;
     }
 
-    public bool SentenceContainsWord ()
+    public bool SentenceContainsWord()
     {
       string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
       if (((IList<string>)sentenceArray).Contains("cat"))
@@ -97,6 +66,10 @@ namespace WordCounter.Words
       }
     }
 
+    public bool RemoveNonAlphabet(char userInput)
+    {
+      return Char.IsLetter(userInput);
+    }
 
   }
 }

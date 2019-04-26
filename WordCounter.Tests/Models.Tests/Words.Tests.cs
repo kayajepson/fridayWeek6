@@ -48,5 +48,12 @@ namespace WordCounter.Tests
       Assert.AreEqual(2, newComparison.RepeatCounter("cat"));
     }
 
+    [TestMethod]
+    public void LetterIsLetter_RemoveNonAlphabet()
+    {
+      WordCountGen newComparison = new WordCountGen();
+      Assert.AreEqual(true, newComparison.RemoveNonAlphabet('c'));
+    }
+
   }
 }
