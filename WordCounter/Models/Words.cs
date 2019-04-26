@@ -10,27 +10,52 @@ namespace WordCounter.Words
     //   string[] sentenceArray = sentence.Split();
     //   return sentenceArray;
     // }
-    public void SentenceContainsWord (string sentence)
-    {
-      string userWord = "cat";
-      string[] sentenceArray = sentence.Split();
-    }
+    // public void SentenceContainsWord (string sentence)
+    // {
+    //   string userWord = "cat";
+    //   string[] sentenceArray = sentence.Split();
+    // }
 
     public int TimesInSentence (string userWord)
     {
+      List<string> sentenceList = new List<string>(){"the", "cat", "in", "the", "hat"};
       string[] sentenceArray = {"the", "cat", "in", "the", "hat"};
       int timesAppeared = 0;
-      for (int i = 0; i <= sentenceArray.Length - 1; i++)
-      {
-        if (((IList<string>)sentenceArray).Contains(userWord))
+      Console.WriteLine("sentence:");
+      sentenceList.ForEach(Console.WriteLine);
+      Console.WriteLine("user word:");
+      Console.WriteLine(userWord);
+
+      foreach (string i in sentenceList)
         {
-          timesAppeared += 1;
+          if (i == userWord)
+          {
+            Console.WriteLine("yes");
+            timesAppeared += 1;
+          }
+          else
+          {
+            Console.WriteLine("no");
+            timesAppeared += 0;
+          }
         }
-        else
-        {
-          return 0;
-        }
-      }
+
+
+      Console.WriteLine(userWord);
+
+      // for (int i = 0; i <= sentenceArray.Length - 1; i++)
+      // {
+      //   if (sentenceArray[i] == userWord)
+      //   {
+      //     timesAppeared += 1;
+      //     Console.WriteLine("working");
+      //   }
+      //   else
+      //   {
+      //     Console.WriteLine("not working");
+      //     return 0;
+      //   }
+      // }
       return timesAppeared;
     }
 
