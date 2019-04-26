@@ -25,23 +25,7 @@ namespace WordCounter.Words
         return timesAppeared;
       }
 
-  public string RemoveNonStringValues (string sentence)
-  {
-    string userWord = "cat";
-    List<string> updatedList = new List<string>(){};
-    string[] sentenceArray = sentence.Split();
-    for (int i = 0; i <= sentenceArray.Length - 1; i++)
-      {
-        if ((sentenceArray[i].GetType().GetElementType()) == "String")
-        {
-          updatedList.Add();
-        }
-        else
-        {
-          return false;
-        }
-      }
-  }
+
 
 // ----if i want an array instead
 //
